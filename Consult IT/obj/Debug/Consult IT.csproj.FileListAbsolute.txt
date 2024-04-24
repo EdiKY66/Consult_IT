@@ -1,0 +1,19 @@
+D:\MHP - Projecrt\Consult IT\Consult IT\bin\Debug\Consult IT.exe.config
+D:\MHP - Projecrt\Consult IT\Consult IT\bin\Debug\Consult IT.exe
+D:\MHP - Projecrt\Consult IT\Consult IT\bin\Debug\Consult IT.pdb
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult IT.csproj.AssemblyReference.cache
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Launch_Page.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Properties.Resources.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult IT.csproj.GenerateResource.cache
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult IT.csproj.CoreCompileInputs.cache
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult IT.exe
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult IT.pdb
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Login_Form.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.WrongAcc.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.MainPage.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Employees_Info.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.EmployeeDetailsForm.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Sure.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Upate_Info_Employee.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Add_Employee.resources
+D:\MHP - Projecrt\Consult IT\Consult IT\obj\Debug\Consult_IT.Create_Account.resources

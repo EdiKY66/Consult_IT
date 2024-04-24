@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0158F2C-1DA5-4E56-98E1-A16E6D79E96E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Consult_IT</RootNamespace>
+    <AssemblyName>Consult IT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Employee.Designer.cs">
+      <DependentUpon>Add_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultIT_DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultIT_DBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Create_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_Account.Designer.cs">
+      <DependentUpon>Create_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDetailsForm.Designer.cs">
+      <DependentUpon>EmployeeDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees_Info.Designer.cs">
+      <DependentUpon>Employees_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Launch_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launch_Page.Designer.cs">
+      <DependentUpon>Launch_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainAngajat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainAngajat.Designer.cs">
+      <DependentUpon>MainAngajat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainInginer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainInginer.Designer.cs">
+      <DependentUpon>MainInginer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sure.Designer.cs">
+      <DependentUpon>Sure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Upate_Info_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upate_Info_Employee.Designer.cs">
+      <DependentUpon>Upate_Info_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WrongAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WrongAcc.Designer.cs">
+      <DependentUpon>WrongAcc.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Employee.resx">
+      <DependentUpon>Add_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_Account.resx">
+      <DependentUpon>Create_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDetailsForm.resx">
+      <DependentUpon>EmployeeDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees_Info.resx">
+      <DependentUpon>Employees_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launch_Page.resx">
+      <DependentUpon>Launch_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sure.resx">
+      <DependentUpon>Sure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upate_Info_Employee.resx">
+      <DependentUpon>Upate_Info_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WrongAcc.resx">
+      <DependentUpon>WrongAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ConsultIT_DBDataSet.xsc">
+      <DependentUpon>ConsultIT_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ConsultIT_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConsultIT_DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ConsultIT_DBDataSet.xss">
+      <DependentUpon>ConsultIT_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLOSE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Writing.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Writing Small.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueGood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Albastru.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\PC.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
